@@ -1,0 +1,165 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* font-family: 'Dancing Script', cursive;*/
+/* font-family: 'Caveat', cursive; */
+
+.navbar{
+  font-family:'Caveat', cursive;
+  text-align: center;
+  box-shadow: 0px 8px 8px -6px grey;
+}
+
+.nav-link {
+  padding: 10px;
+  margin-left: 10px;
+
+}
+
+.nav-link:hover{
+  border-bottom: 1px solid #000;
+
+}
+
+
+/* --------------------------------------------------------------------------------------------- */
+/* .f_card{
+  background-color: aqua;
+  margin-left: 50px;
+} */
+
+
+.title{
+  background-color: black;
+  color: white;
+  font-size: 50px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+/* --------------------------------------------------------------------------------------------- */
+
+.head{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 7px;
+
+
+}
+
+.head h1::first-letter{
+    color: red;
+    font-size: 70px;
+    
+}
+
+
+
+.introduction-section-table-first-tr td{
+  background-color: aqua;
+  line-height: 50px;
+  padding: 20px;
+
+}
+
+.introduction-section-table-first-tr td{
+  padding: 60px 20px;
+}
+
+
+/* ----------------------------------------------------------------------------------------------- */
+.sign_up_form{
+  padding: 40px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.form-group{
+  padding: 10px;
+}
+
+.form-group label{
+  padding-bottom: 10px;
+}
+
+.form-check{
+  margin-left: 30px;
+}
+
+.sign_up_form button{
+  margin-left: 10px;
+}
+
+
+
+/* ================================================================================================ */
+
+.Upload-main-div{
+  background-color: aquamarine;
+  padding: 17px;
+  width: 100%;
+}
+
+
+.upload-blog input{
+  /* margin-left: 30px; */
+  padding: 7px;
+  width: 100%;
+
+}
+
+.upload-blog button{
+  margin-left: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+.imageText{
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.blog-section{
+  background-color:rgb(230, 242, 120) ;
+  padding: 30px;
+}
+
+
+/* ====================================================================================== */
+.carousel-section{
+  background-color: rgb(206, 252, 1);
+  width: 60%;
+  height: 80vh;
+  margin-left: 280px;
+}
+
+/* =========================================================================================== */
+.About_us_details_table{
+   /* background-color: aqua; */
+   margin: 30px;
+}
+
+.About_us_details_table h1{
+  padding:0px 40px;
+}
+
+.About_us_details_table p{
+  padding-right: 60px;
+}
+
+.contact-para{
+  margin-left: 200px;
+}
+
+.contact-para img{
+  margin-right: 20px;
+}
